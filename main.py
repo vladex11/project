@@ -25,11 +25,11 @@ class ExcelGUI:
             self.message_label.config(text="")
 
     def create_widgets(self):
-        # Buton pentru încărcarea datelor din magazinul selectat
+        # buton pt a incarca datele
         self.load_button = tk.Button(self.root, text="Încarcă Date", command=self.load_data)
         self.load_button.pack(pady=10)
 
-        # Dropdown pentru selecția magazinului
+        # butonul dropdown-ului 
         self.store_dropdown = tk.OptionMenu(self.root, self.selected_store, "")
         self.store_dropdown.pack(pady=10)
 
