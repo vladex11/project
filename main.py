@@ -46,10 +46,11 @@ class ExcelGUI:
 
     def initialize_store_paths(self):
         # Adaugare cale pt magazin
-        self.file_paths["Profi"] = r"D:\python\project\Profi.xlsx"
-        self.file_paths["Mega Image"] = r"D:\python\project\MegaImage.xlsx"
-        self.file_paths["Kaufland"] = r"D:\python\project\kaufland.xlsx"
-        self.file_paths["Lidl"] = r"D:\python\project\Lidl.xlsx"
+        self.file_paths["Profi"] = r"D:\python\project\Magazine\Profi.xlsx"
+        self.file_paths["Mega Image"] = r"D:\python\project\Magazine\MegaImage.xlsx"
+        self.file_paths["Kaufland"] = r"D:\python\project\Magazine\kaufland.xlsx"
+        self.file_paths["Lidl"] = r"D:\python\project\Magazine\Lidl.xlsx"
+        self.file_paths["Penny"] = r"D:\python\project\Magazine\Penny.xlsx"
 
         # Actualizează opțiunile din dropdown
         self.update_store_options()
